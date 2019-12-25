@@ -1,37 +1,177 @@
 * {
     box-sizing: border-box;
+    cursor: default;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
-    text-align: center;
+    font-family: "futura", sans-serif; 
+    color: #591FFF;
     line-height: 1.5;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
+  .nav {
+      margin-top: 13%;
+  }
+
+
+  .nav-list {
+    font-family: "domine";
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: flex-end;
+    margin-top: 10%;
+    font-size: 1.2em;
+  }
+
+.name-nav {
+    margin-right: 7%;
+    transition-duration: 0.6s;
+}
+
+.name-nav:hover {
+    color: #21DCAE;
+    text-decoration: underline;
+}
+
+.projects-nav {
+    margin-right: 7%;
+    transition-duration: 0.6s;
+}
+
+.projects-nav:hover {
+    color: #21DCAE;
+    text-decoration: underline;
+}
+
+.about-nav {
+    transition-duration: 0.6s;
+}
+
+.about-nav:hover {
+    color: #21DCAE;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 13%;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin-top: 25%;
+    }
+  }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #591FFF;
+    margin: 1em 0;
+    padding: 0;
+}
+
+  .bold {
+      font-weight: bold;
   }
   
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+  .home-links {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 40px;
+  }
+
+  .btn-purple {
+    background: transparent;
+  border: 2px solid #591FFF;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Futura;  color: #591FFF;  font-size: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  transition-duration: 0.6s;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-purple:hover {
+  background: #591FFF;
+  border: 2px solid #591FFF;
+  text-decoration: none;
+  font-family: Futura;  color: #FFf;  font-size: 1em;
+}
+
+  .btn-green {
+    background: #fff;
+    border: 2px solid #21DCAE;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Futura;  color: #21DCAE;  font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition-duration: 0.6s;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
-  .about {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #fff;
+  .btn-green:hover {
+    background: #21DCAE;
+    border: 2px solid #21DCAE;
+    text-decoration: none;
+    font-family: Futura;  color: #fff;  font-size: 1em;
   }
   
-  .buttons {
-    background-color: #ddd;
+.about-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 200px;
+}
+
+.project-box {
+    border: 1px solid #591FFF;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.tech-icons {
+    display: inline;
+}
+
+#js-icon {
+    margin-right: 5px;
+}
+
+  .footer {
+    font-size: xx-small;
+    display: flex;
+    justify-content: center;
+    width:100%;
+     margin-top: 100px;
   }
-  

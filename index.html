@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Portfolio Wireframes</title>
+        <title>Zachary Azeez Dev Portfolio</title>
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        <nav role="navigation">Nav</nav>
-        <main role="main">
-            <section class="about">
-                About Paragraph
+        <nav role="navigation" class="nav">
+            <section class="nav-list">
+                    <a class="name-nav">Zachary Azeez</a>
+                    <a class="projects-nav">Projects</a>
+                    <a class="about-nav">About</a>
             </section>
+            <hr/>
+        </nav>
+        <main role="main" class="main-content">
+            <section class="content-wrap">
+                <p>
+                    I've been a 
+                    <span class="bold">startup entrepreneur</span>
+                     since 2007 in online media, and health & wellness with a focus in 
+                    <span class="bold">e-commerce since 2015</span>.
+                    I've helped scale companies into 
+                    <span class="bold">7 figures</span>
+                     in sales and have spent over 
+                    <span class="bold">1MM</span>
+                     on Facebook profitably driving traffic with an average ROAS of 2.3X. I was self taught in programming until recently when I decided to take my skills to another level by enrolling in a 6 month coding bootcamp with Thinkful. I plan to use my new level of skills to hire and work with a small team of 
+                    <span class="bold">super devs</span>
+                     to offer new and exciting web app features for my newest venture 
+                    <span class="bold">Katy Keto</span>.
+                    Feel free to contact me or browse some of my projects using the links below.
+                </p>
 
-            <section class="buttons">
-                Buttons
+                <section class="home-links">
+                    <a href="mailto:zach@katyketo.com">
+                        <button id="email-button" type="button" class="btn-purple">Email me</button>
+                    </a>
+                    <button id="projects-button" type="button" class="btn-green projects-nav">Projects</button>
+                </section>
             </section>
-
-            <section class="projects"></section>
+            <section class="projects-js"></section>
+            <section class="about-js"></section>
+            <section class="footer">
+                    <p>© Zachary Azeez 2019</p>
+            </section>
         </main>
-        <footer role="content-info">Footer</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>
