@@ -30,10 +30,10 @@ function projects() {
         These points will allow the user to save money on their next purchase.
     </p>
     <section class="home-links">
-        <a href="https://github.com/zazeez/QA" target="_blank">
+        <a href="https://github.com/zazeez/QA" rel="noopener noreferrer" target="_blank">
             <button id="view-code-button" type="button" class="btn-purple">View code</button>
         </a>
-        <a href="https://zazeez.github.io/QA/" target="_blank">
+        <a href="https://zazeez.github.io/QA/" rel="noopener noreferrer" target="_blank">
             <button id="view-project-button" type="button" class="btn-green">View project</button>
         </a>
     </section>
@@ -80,10 +80,10 @@ function about() {
     <a href="mailto:zach@katyketo.com">
     <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/email-icon.png?v=1577093857" alt="email icon" style="height:50px;">
     </a>
-    <a href="https://github.com/zazeez/">
+    <a href="https://github.com/zazeez/" rel="noopener noreferrer" target="_blank">
     <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/GitHub-Mark-64px.png?v=1577091960" alt="github logo" style="height:50px;">
     </a>
-    <a href="https://www.linkedin.com/in/zach-azeez-ab92b05a/">
+    <a href="https://www.linkedin.com/in/zach-azeez-ab92b05a/" rel="noopener noreferrer" target="_blank">
     <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/LI-In-Bug.png?v=1577091974" alt="linkedin logo" style="height:50px;">
     </a>
     </section>

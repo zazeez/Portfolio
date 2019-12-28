@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        <nav role="navigation" class="nav">
+        <nav class="nav">
             <section class="nav-list">
                     <a class="name-nav">Zachary Azeez</a>
                     <a class="projects-nav">Projects</a>
@@ -13,7 +13,7 @@
             </section>
             <hr/>
         </nav>
-        <main role="main" class="main-content">
+        <main class="main-content">
             <section class="content-wrap">
                 <p>
                     I've been a 
@@ -32,9 +32,7 @@
                 </p>
 
                 <section class="home-links">
-                    <a href="mailto:zach@katyketo.com">
-                        <button id="email-button" type="button" class="btn-purple">Email me</button>
-                    </a>
+                    <button onclick="window.location.href = 'mailto:zach@katyketo.com';" id="email-button" type="button" class="btn-purple">Email me</button>
                     <button id="projects-button" type="button" class="btn-green projects-nav">Projects</button>
                 </section>
             </section>
