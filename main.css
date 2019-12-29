@@ -64,9 +64,24 @@ main {
     margin-top: 13%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     main {
         margin-top: 25%;
+    }
+    .nav-list {
+      font-size: 2em;
+    }
+    .btn-purple {
+      font-size: 2em;
+    }
+    .btn-purple:hover {
+      font-size: 2em;
+    }
+    .btn-orange {
+      font-size: 2em;
+    }
+    .btn-orange:hover {
+      font-size: 2em;
     }
   }
 
@@ -116,7 +131,7 @@ hr {
   font-family: Futura;  color: #FFf;  font-size: 1em;
 }
 
-  .btn-green {
+  .btn-orange {
     background: #fff;
     border: 2px solid #ff591f;
     -webkit-border-radius: 28;
@@ -135,7 +150,7 @@ hr {
     margin-right: 20px;
   }
   
-  .btn-green:hover {
+  .btn-orange:hover {
     background: #ff591f;
     border: 2px solid #ff591f;
     text-decoration: none;

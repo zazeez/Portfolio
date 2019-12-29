@@ -16,29 +16,29 @@ function clickZachary() {
 function projects() {
     let html =
     `
-    <section class="project-box">
+    <div class="project-box">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/Screen_Shot_2019-12-24_at_11.08.44_AM.png?v=1577138948" alt="Katy Keto quiz screenshot" style="width:100%;">
-    <section class="project-info">
+    <div class="project-info">
         <h3>Katy Keto Quiz App</h3>
-    <section class="tech-icons">
+    <div class="tech-icons">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/icons8-javascript-50.png?v=1577140249" alt="JavaScript icon" style="width:25px;" id="js-icon">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/icons8-jquery-50.png?v=1577140249" alt="JQuery icon" style="width:25px;">
-    </section>
+    </div>
     <p>
         The Katy Keto Quiz allows you to answer 5 questions related to doign the Keto diet well. At the end of the quiz you receive your final score and the ability to try again. 
         Future development may involve assigning Katy Keto points to a user's account who passes the test answering all 5 questions correctly. 
         These points will allow the user to save money on their next purchase.
     </p>
-    <section class="home-links">
+    <div class="home-links">
         <a href="https://github.com/zazeez/QA" rel="noopener noreferrer" target="_blank">
             <button id="view-code-button" type="button" class="btn-purple">View code</button>
         </a>
         <a href="https://zazeez.github.io/QA/" rel="noopener noreferrer" target="_blank">
             <button id="view-project-button" type="button" class="btn-green">View project</button>
         </a>
-    </section>
-    </section>
-    </section>
+    </div>
+    </div>
+    </div>
     `
     $('.projects-js').html(html);
 };
@@ -76,7 +76,7 @@ function about() {
     <p>
     I am NOT currently hiring, but I can be contacted using the following links:
     </p>
-    <section class="about-icons">
+    <div class="about-icons">
     <a href="mailto:zach@katyketo.com">
     <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/email-icon.png?v=1577093857" alt="email icon" style="height:50px;">
     </a>
@@ -86,7 +86,7 @@ function about() {
     <a href="https://www.linkedin.com/in/zach-azeez-ab92b05a/" rel="noopener noreferrer" target="_blank">
     <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/LI-In-Bug.png?v=1577091974" alt="linkedin logo" style="height:50px;">
     </a>
-    </section>
+    </div>
     `
     $('.about-js').html(html);
 
