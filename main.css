@@ -37,7 +37,7 @@
 }
 
 .name-nav:hover {
-    color: #21DCAE;
+    color: #ff591f;
     text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .projects-nav:hover {
-    color: #21DCAE;
+    color: #ff591f;
     text-decoration: underline;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .about-nav:hover {
-    color: #21DCAE;
+    color: #ff591f;
     text-decoration: underline;
 }
 
@@ -118,11 +118,11 @@ hr {
 
   .btn-green {
     background: #fff;
-    border: 2px solid #21DCAE;
+    border: 2px solid #ff591f;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Futura;  color: #21DCAE;  font-size: 1em;
+    font-family: Futura;  color: #ff591f;  font-size: 1em;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -136,8 +136,8 @@ hr {
   }
   
   .btn-green:hover {
-    background: #21DCAE;
-    border: 2px solid #21DCAE;
+    background: #ff591f;
+    border: 2px solid #ff591f;
     text-decoration: none;
     font-family: Futura;  color: #fff;  font-size: 1em;
   }
