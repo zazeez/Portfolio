@@ -17,23 +17,27 @@
     padding-right: 10%;
   }
   
-  .nav {
-      margin-top: 13%;
-  }
-
-
-  .nav-list {
-    font-family: "domine";
+  header {
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    align-items: flex-end;
-    margin-top: 10%;
-    font-size: 1.2rem;
-  }
+    align-items: center;
+
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
 
 .name-nav {
-    margin-right: 7%;
     transition-duration: 0.6s;
 }
 
@@ -43,7 +47,6 @@
 }
 
 .projects-nav {
-    margin-right: 7%;
     transition-duration: 0.6s;
 }
 
@@ -62,15 +65,12 @@
 }
 
 main {
-    margin-top: 13%;
+    margin-top: 20%;
 }
 
 @media only screen and (max-width: 600px) {
     main {
         margin-top: 25%;
-    }
-    .nav-list {
-      font-size: 1.6rem;
     }
   }
 
@@ -90,8 +90,8 @@ hr {
   .home-links {
     display: flex;
     justify-content: center;
-    width:100%;
-    margin-top: 40px;
+
+    margin-top: 10%;
   }
 
   .btn-purple {

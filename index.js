@@ -34,7 +34,7 @@ function projects() {
             <button id="view-code-button" type="button" class="btn-purple">View code</button>
         </a>
         <a href="https://zazeez.github.io/QA/" rel="noopener noreferrer" target="_blank">
-            <button id="view-project-button" type="button" class="btn-green">View project</button>
+            <button id="view-project-button" type="button" class="btn-orange">View project</button>
         </a>
     </div>
     </div>
