@@ -72,6 +72,9 @@ main {
     main {
         margin-top: 25%;
     }
+    header li {
+      font-size: 1.6rem;
+    }
   }
 
 hr {
