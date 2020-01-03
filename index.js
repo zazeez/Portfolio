@@ -19,7 +19,7 @@ function projects() {
     <div class="project-box">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/Screen_Shot_2019-12-24_at_11.08.44_AM.png?v=1577138948" alt="Katy Keto quiz screenshot" style="width:100%;">
     <div class="project-info">
-        <h3>Katy Keto Quiz App</h3>
+        <h1>Katy Keto Quiz App</h1>
     <div class="tech-icons">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/icons8-javascript-50.png?v=1577140249" alt="JavaScript icon" style="width:25px;" id="js-icon">
         <img src="https://cdn.shopify.com/s/files/1/0102/0939/4769/files/icons8-jquery-50.png?v=1577140249" alt="JQuery icon" style="width:25px;">

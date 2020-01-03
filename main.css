@@ -23,13 +23,15 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: auto;
     display: flex;
     align-items: center;
 }
 
 header * {
     display: inline;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 header li {
@@ -65,22 +67,7 @@ header li {
 }
 
 main {
-    margin-top: 150px;
-}
-
-/* @media only screen and (max-width: 720px) {
-  .nav-element {
-    font-size: 40px;
-  }
-} */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #591FFF;
-    margin: 1em 0;
-    padding: 0;
+    margin-top: 250px;
 }
 
   .bold {
@@ -186,3 +173,17 @@ h1 {
 }
 
 
+@media only screen and (max-width: 720px) {
+  .nav-element {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+}
