@@ -18,7 +18,7 @@
   }
   
   header {
-    background-color: rgb(236, 236, 236);
+    background-color: #ff591f;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,6 @@
     height: 80px;
     display: flex;
     align-items: center;
-
 }
 
 header * {
@@ -35,6 +34,7 @@ header * {
 
 header li {
     margin: 20px;
+    color: #fff;
 }
 
 .name-nav {
@@ -42,7 +42,7 @@ header li {
 }
 
 .name-nav:hover {
-    color: #ff591f;
+    color: #591FFF;
     text-decoration: underline;
 }
 
@@ -51,7 +51,7 @@ header li {
 }
 
 .projects-nav:hover {
-    color: #ff591f;
+    color: #591FFF;
     text-decoration: underline;
 }
 
@@ -60,22 +60,19 @@ header li {
 }
 
 .about-nav:hover {
-    color: #ff591f;
+    color: #591FFF;
     text-decoration: underline;
 }
 
 main {
-    margin-top: 20%;
+    margin-top: 150px;
 }
 
-@media only screen and (max-width: 600px) {
-    main {
-        margin-top: 25%;
-    }
-    header li {
-      font-size: 1.6rem;
-    }
+/* @media only screen and (max-width: 720px) {
+  .nav-element {
+    font-size: 40px;
   }
+} */
 
 hr {
     display: block;
@@ -92,9 +89,10 @@ hr {
   
   .home-links {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
-
-    margin-top: 10%;
+    margin-top: 7%;
+    margin-bottom: 3%;
   }
 
   .btn-purple {
@@ -186,3 +184,5 @@ h1 {
   width:100%;
   margin-top: 100px;
 }
+
+
